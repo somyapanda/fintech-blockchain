@@ -49,12 +49,12 @@ testnet, which allow for offline development.
         - ./geth --datadir node1 account new
         - ./geth --datadir node2 account new
 
-    ![Generate Nodes](.\Screenshots\generate_nodes.png)
+    ![Generate Nodes](./Screenshots/generate_nodes.png)
     
     - Copy and save nodes in **accounts.txt** and passwords 
     in **password1.txt and password2.txt** for the furthur use.
 
-    ![Save Nodes Password](.\Screenshots\save_nodes_password.png)
+    ![Save Nodes Password](./Screenshots/save_nodes_password.png)
 
     - Generate genesis block
         - Run the command **./puppeth**
@@ -78,14 +78,14 @@ testnet, which allow for offline development.
         **digiternet-harmony.json**.
         - Delete file **digiternet-harmony.json**.
        
-    ![Puppeth configuration](.\Screenshots\puppeth.png)
+    ![Puppeth configuration](./Screenshots/puppeth.png)
 
     - Using **./geth**, initialize each node with the new 
     network name **digiternet.json**.
         - ./geth --datadir node1 init digiternet.json
         - ./geth --datadir node2 init digiternet.json
 
-    ![Initilize Nodes](.\Screenshots\initialize_nodes.png)
+    ![Initilize Nodes](./Screenshots/initialize_nodes.png)
 
     - Run the nodes in separate terminal windows with the commands:
         - ./geth --datadir node1 --unlock
@@ -99,9 +99,9 @@ testnet, which allow for offline development.
         871122@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
         --password password2.txt
 
-    ![Run Nodes](.\Screenshots\run_nodes.png)
+    ![Run Nodes](./Screenshots/run_nodes.png)
 
-    ![Run Nodes](.\Screenshots\run_nodes2.png)
+    ![Run Nodes](./Screenshots/run_nodes2.png)
 
 4. **Send Test Transaction**
     - With both nodes up and running, the blockchain can be added to
@@ -109,7 +109,7 @@ testnet, which allow for offline development.
     - Open the **MyCrypto** app, than select **Change Network** at
     the bottom left.
 
-    ![Change Network](.\Screenshots\change_network.png)
+    ![Change Network](./Screenshots/change_network.png)
 
     - Select **Add Custom Node**
     - Network name as **digiternet**
@@ -121,7 +121,7 @@ testnet, which allow for offline development.
     the default RPC port on your local machine.
     - Finally, click **Save & Use Custom Node**.
 
-    ![Custom Node](.\Screenshots\custom_node.png)
+    ![Custom Node](./Screenshots/custom_node.png)
 
     - After connecting to the custom network in MyCrypto, Select the
     **View & Send** option from the left menu pane, then click
@@ -131,34 +131,34 @@ testnet, which allow for offline development.
     - Select the file located, provide password when prompted and
     then click **Unlock**.
 
-    ![Keystore File](.\Screenshots\unlock_keystore.png)
+    ![Keystore File](./Screenshots/unlock_keystore.png)
     - This will open **MyCrypto** account wallet.
     - Looks like we're filthy rich! This is the balance that was
     pre-funded for this account in the genesis configuration;
     however, these millions of ETH tokens are just for testing
     purposes.
 
-    ![Node Balance](.\Screenshots\node_balance.png)
+    ![Node Balance](./Screenshots/node_balance.png)
 
     - In the **To Address** box, type the account address
     **0xa63Ca252c5363bdD2bebAAB99c039f8BE3b9cf98** from Node2, then
     fill any amount of ETH.
     
-    ![Transaction Send](.\Screenshots\transaction_send.png)
+    ![Transaction Send](./Screenshots/transaction_send.png)
 
     - Confirm the transaction by clicking **Send Transaction**, and
     the **Send** button in the pop-up window.
 
-    ![Transaction Proceed](.\Screenshots\transaction_send2.png)
+    ![Transaction Proceed](./Screenshots/transaction_send2.png)
 
     - Click the **Check TX Status** when the green message pops up,
     confirm the **logout**.
 
-    ![TX Status](.\Screenshots\tx_status.png)
+    ![TX Status](./Screenshots/tx_status.png)
 
     - Click the **Check TX Status** button to update the status.
 
-    ![Transaction Success](.\Screenshots\transaction_success.png)
+    ![Transaction Success](./Screenshots/transaction_success.png)
 
     - Successfully created our own private blockchain.
 
