@@ -161,6 +161,10 @@ testnet, which allow for offline development.
     ![Transaction Success](./Screenshots/transaction_success.png)
 
     - Successfully created our own private blockchain.
+    
+    ### Blockchain-tools Structure
+    
+    ![Blockchain Structure](./Screenshots/blockchain_structure.png)
 
 
 
